@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="16" errors="0" failures="2" not-run="55" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2024-12-11" time="19:41:53">
+  <environment machine-name="COPHGL99GW9C3" cwd="C:\01-DEV\MyAutomatedLab\DSCDemoLab" os-version="10.0.22631" user-domain="FM" user="llienhard" platform="Microsoft Windows 11 Professionnel|C:\windows|\Device\Harddisk0\Partition3" nunit-version="2.5.8.0" clr-version="8.0.10" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="43.2396" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\00General.tests.ps1" executed="True" result="Success" success="True" time="0.3967" asserts="0" description="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\00General.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="[DSCDemoLab] General" executed="True" result="Success" success="True" time="0.1925" asserts="0" description="[DSCDemoLab] General">
+            <results>
+              <test-suite type="TestFixture" name="[DSCDemoLab] General.Lab deployment successful" executed="True" result="Success" success="True" time="0.1814" asserts="0" description="[DSCDemoLab] General.Lab deployment successful">
+                <results>
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] General.Lab deployment successful.[&lt;LabName&gt;] Should return the correct amount of machines" executed="True" result="Success" success="True" time="0.1621" asserts="0" description="[&lt;LabName&gt;] Should return the correct amount of machines">
+                    <results>
+                      <test-case description="[DSCDemoLab] Should return the correct amount of machines" name="[DSCDemoLab] General.Lab deployment successful.[DSCDemoLab] Should return the correct amount of machines" time="0.1621" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\CaRoot.tests.ps1" executed="True" result="Success" success="True" time="1.3989" asserts="0" description="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\CaRoot.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="[DSCDemoLab] CaRoot" executed="True" result="Success" success="True" time="1.2705" asserts="0" description="[DSCDemoLab] CaRoot">
+            <results>
+              <test-suite type="TestFixture" name="[DSCDemoLab] CaRoot.Role deployment successful" executed="True" result="Success" success="True" time="1.2617" asserts="0" description="[DSCDemoLab] CaRoot.Role deployment successful">
+                <results>
+                  <test-case description="[CaRoot] Should return the correct amount of machines" name="[DSCDemoLab] CaRoot.Role deployment successful.[CaRoot] Should return the correct amount of machines" time="0.0278" asserts="0" success="True" result="Success" executed="True" />
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] CaRoot.Role deployment successful.[DCA1] Should be discoverable" executed="True" result="Success" success="True" time="0.851" asserts="0" description="[DCA1] Should be discoverable">
+                    <results>
+                      <test-case description="[DCA1] Should be discoverable" name="[DSCDemoLab] CaRoot.Role deployment successful.[DCA1] Should be discoverable(DCA1)" time="0.851" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] CaRoot.Role deployment successful.[DCA1] should have CertSvc running" executed="True" result="Success" success="True" time="0.3712" asserts="0" description="[DCA1] should have CertSvc running">
+                    <results>
+                      <test-case description="[DCA1] should have CertSvc running" name="[DSCDemoLab] CaRoot.Role deployment successful.[DCA1] should have CertSvc running(DCA1)" time="0.3712" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\DSCPullServer.tests.ps1" executed="True" result="Failure" success="False" time="19.3619" asserts="0" description="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\DSCPullServer.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="[DSCDemoLab] DSCPullServer" executed="True" result="Failure" success="False" time="19.2403" asserts="0" description="[DSCDemoLab] DSCPullServer">
+            <results>
+              <test-suite type="TestFixture" name="[DSCDemoLab] DSCPullServer.Role deployment successful" executed="True" result="Failure" success="False" time="19.2289" asserts="0" description="[DSCDemoLab] DSCPullServer.Role deployment successful">
+                <results>
+                  <test-case description="[DSCPullServer] Should return the correct amount of machines" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DSCPullServer] Should return the correct amount of machines" time="0.0172" asserts="0" success="True" result="Success" executed="True" />
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] Pull Server DSC config should exist" executed="True" result="Failure" success="False" time="0.191" asserts="0" description="[DPull1] Pull Server DSC config should exist">
+                    <results>
+                      <test-case description="[DPull1] Pull Server DSC config should exist" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] Pull Server DSC config should exist(DPull1)" time="0.191" asserts="0" success="False" result="Failure" executed="True">
+                        <failure>
+                          <message>Expected 'SetupDscPullServer', but got $null.</message>
+                          <stack-trace>at $config.ConfigurationName | Sort-Object -Unique | Should -Be 'SetupDscPullServer', C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\DSCPullServer.tests.ps1:17
+at &lt;ScriptBlock&gt;, C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\DSCPullServer.tests.ps1:17</stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] Pull Server DSC config should be converged" executed="True" result="Failure" success="False" time="0.1037" asserts="0" description="[DPull1] Pull Server DSC config should be converged">
+                    <results>
+                      <test-case description="[DPull1] Pull Server DSC config should be converged" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] Pull Server DSC config should be converged(DPull1)" time="0.1037" asserts="0" success="False" result="Failure" executed="True">
+                        <failure>
+                          <message>Expected $true, but got $null.</message>
+                          <stack-trace>at Test-DscConfiguration -CimSession (New-LabCimSession -ComputerName $vm) -ErrorAction SilentlyContinue | Should -Be $true, C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\DSCPullServer.tests.ps1:21
+at &lt;ScriptBlock&gt;, C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\DSCPullServer.tests.ps1:21</stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] Endpoint should be accessible" executed="True" result="Success" success="True" time="17.4977" asserts="0" description="[DPull1] Endpoint should be accessible">
+                    <results>
+                      <test-case description="[DPull1] Endpoint should be accessible" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] Endpoint should be accessible(DPull1)" time="17.4977" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] should have all required Pull Server features installed" executed="True" result="Success" success="True" time="1.4086" asserts="0" description="[DPull1] should have all required Pull Server features installed">
+                    <results>
+                      <test-case description="[DPull1] should have all required Pull Server features installed" name="[DSCDemoLab] DSCPullServer.Role deployment successful.[DPull1] should have all required Pull Server features installed(DPull1)" time="1.4086" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\RootDC.tests.ps1" executed="True" result="Success" success="True" time="1.9524" asserts="0" description="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\RootDC.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="[DSCDemoLab] DC Generic" executed="True" result="Success" success="True" time="0.8829" asserts="0" description="[DSCDemoLab] DC Generic">
+            <results>
+              <test-suite type="TestFixture" name="[DSCDemoLab] DC Generic.Role deployment successful" executed="True" result="Success" success="True" time="0.8718" asserts="0" description="[DSCDemoLab] DC Generic.Role deployment successful">
+                <results>
+                  <test-case description="[RootDC] Should return the correct amount of machines" name="[DSCDemoLab] DC Generic.Role deployment successful.[RootDC] Should return the correct amount of machines" time="0.0126" asserts="0" success="True" result="Success" executed="True" />
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] DC Generic.Role deployment successful.DDC1 should have ADWS running" executed="True" result="Success" success="True" time="0.4032" asserts="0" description="DDC1 should have ADWS running">
+                    <results>
+                      <test-case description="DDC1 should have ADWS running" name="[DSCDemoLab] DC Generic.Role deployment successful.DDC1 should have ADWS running(DDC1)" time="0.4032" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] DC Generic.Role deployment successful.DDC1 should respond to ADWS calls" executed="True" result="Success" success="True" time="0.4432" asserts="0" description="DDC1 should respond to ADWS calls">
+                    <results>
+                      <test-case description="DDC1 should respond to ADWS calls" name="[DSCDemoLab] DC Generic.Role deployment successful.DDC1 should respond to ADWS calls(DDC1)" time="0.4432" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="[DSCDemoLab] RootDC specific" executed="True" result="Success" success="True" time="1.7826" asserts="0" description="[DSCDemoLab] RootDC specific">
+            <results>
+              <test-suite type="ParameterizedTest" name="[DSCDemoLab] RootDC specific.DDC1 should hold PDC emulator FSMO role" executed="True" result="Success" success="True" time="0.8771" asserts="0" description="DDC1 should hold PDC emulator FSMO role">
+                <results>
+                  <test-case description="DDC1 should hold PDC emulator FSMO role" name="[DSCDemoLab] RootDC specific.DDC1 should hold PDC emulator FSMO role(DDC1)" time="0.8771" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\Routing.tests.ps1" executed="True" result="Success" success="True" time="18.5414" asserts="0" description="C:\Program Files\PowerShell\Modules\AutomatedLabTest\5.54.0\tests\Routing.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="[DSCDemoLab] Routing" executed="True" result="Success" success="True" time="18.4241" asserts="0" description="[DSCDemoLab] Routing">
+            <results>
+              <test-suite type="TestFixture" name="[DSCDemoLab] Routing.Role deployment successful" executed="True" result="Success" success="True" time="18.4154" asserts="0" description="[DSCDemoLab] Routing.Role deployment successful">
+                <results>
+                  <test-case description="[Routing] Should return the correct amount of machines" name="[DSCDemoLab] Routing.Role deployment successful.[Routing] Should return the correct amount of machines" time="0.0178" asserts="0" success="True" result="Success" executed="True" />
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] Routing.Role deployment successful.[DRouter] Should be connected to the internet" executed="True" result="Success" success="True" time="8.4897" asserts="0" description="[DRouter] Should be connected to the internet">
+                    <results>
+                      <test-case description="[DRouter] Should be connected to the internet" name="[DSCDemoLab] Routing.Role deployment successful.[DRouter] Should be connected to the internet(DRouter)" time="8.4897" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="[DSCDemoLab] Routing.Role deployment successful.[DRouter] Should have Routing feature installed" executed="True" result="Success" success="True" time="9.8977" asserts="0" description="[DRouter] Should have Routing feature installed">
+                    <results>
+                      <test-case description="[DRouter] Should have Routing feature installed" name="[DSCDemoLab] Routing.Role deployment successful.[DRouter] Should have Routing feature installed(DRouter)" time="9.8977" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
